@@ -4,7 +4,6 @@ import { useState, useEffect, useCallback, useRef, type ComponentType } from "re
 import Link from "next/link";
 import { useSearchParams, useRouter } from "next/navigation";
 import { SECTOR_META } from "../sectorMeta";
-import LeadCapture from "../LeadCapture";
 import {
   IconArrowLeft,
   IconArrowRight,
@@ -492,9 +491,6 @@ export default function BuscarPage() {
                 </a>
               </div>
             )}
-
-            {/* Captación de email */}
-            <LeadCapture sector={sector} sectorNombre={sectorNombre} />
 
             {/* Otras preguntas */}
             <div className="mt-4 pt-5 border-t border-line-soft">
