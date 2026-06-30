@@ -1,0 +1,16 @@
+{
+  "convenio": {
+    "nombre": "Convenio General de la Construccion",
+    "sector": "construccion",
+    "ambito": "nacional",
+    "region": null,
+    "boe_referencia": "BOE-A-2022-11290",
+    "boe_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-11290",
+    "scraped_at": "2026-06-23T01:00:17.451668"
+  },
+  "articulos": [],
+  "stats": {
+    "total_articulos": 0,
+    "por_categoria": {}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "convenio": {
+    "nombre": "Resolución de 7 de enero de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Ryanair DAC en España, para el colectivo de tripulantes de cabina de pasajeros.",
+    "sector": "empresa",
+    "ambito": "nacional",
+    "region": null,
+    "boe_referencia": "BOE-A-2026-1054",
+    "boe_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1054",
+    "boe_xml_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-1054",
+    "fecha_publicacion": "20260117",
+    "fecha_disposicion": "20260107",
+    "notas": [
+      "Vigencia hasta el 31 de marzo de 2030. Prorrogable."
+    ],
+    "scraped_at": "2026-06-29T22:06:26.883845"
+  },
+  "articulos": [],
+  "stats": {
+    "total_articulos": 0,
+    "por_categoria": {}
+  }
+}

@@ -1,26 +1,48 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Paleta papel — Editorial */
+  --paper:       #FBFAF6;
+  --paper-card:  #F4F1E8;
+  --line:        #E7E3D8;
+  --line-soft:   #EDEAE0;
+  --ink:         #2A2620;
+  --ink-muted:   #6B6453;
+  --ink-soft:    #8A8270;
+  --ink-hint:    #9A8F78;
+  --green:       #0F6E56;
+  --green-bg:    #E1F0EA;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-paper:      var(--paper);
+  --color-paper-card: var(--paper-card);
+  --color-line:       var(--line);
+  --color-line-soft:  var(--line-soft);
+  --color-ink:        var(--ink);
+  --color-ink-muted:  var(--ink-muted);
+  --color-ink-soft:   var(--ink-soft);
+  --color-ink-hint:   var(--ink-hint);
+  --color-green:      var(--green);
+  --color-green-bg:   var(--green-bg);
+  --font-serif:       var(--font-fraunces);
+  --font-sans:        var(--font-geist-sans);
+  --font-mono:        var(--font-geist-mono);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), Arial, sans-serif;
 }
+
+@keyframes animFade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes animRise {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.anim-fade { animation: animFade 0.5s ease-out; }
+.anim-rise { animation: animRise 0.5s ease-out; }
