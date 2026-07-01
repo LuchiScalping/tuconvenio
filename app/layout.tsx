@@ -22,6 +22,9 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: "ConveniosClaros — Conoce tus derechos laborales",
   description: "Busca tu convenio colectivo y entiende tus derechos en segundos. Sin PDFs, sin jerga legal.",
+  verification: {
+    google: "Ja513xgUISBvIrsQhYGW_XoEcSdc-7qJRFnG3fNsxoE",
+  },
 };
 
 export default function RootLayout({
