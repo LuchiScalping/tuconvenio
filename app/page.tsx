@@ -70,7 +70,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-paper flex flex-col">
-      <div className="w-full max-w-lg mx-auto flex flex-col flex-1">
 
       {/* Cabecera */}
       <header className="px-6 pt-7">
@@ -134,7 +133,6 @@ export default function Home() {
         Datos oficiales del BOE · Gratuito · Solo orientativo
       </footer>
 
-      </div>
     </div>
   );
 }
